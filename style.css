@@ -72,6 +72,7 @@ h2 {
   right: 0;
   margin: 0 auto;
   overflow: hidden;
+  cursor: pointer;
 }
 .image {
   position: absolute;
