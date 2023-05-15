@@ -1,0 +1,130 @@
+/* CSS Style sheet for phone excercise */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer {
+  background-color: #cccccc;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.cellphoneFrame {
+  border: rgb(32, 32, 32) solid 1.1vh;
+  border-radius: 7%;
+  height: 80%;
+  aspect-ratio: 0.6;
+  background-color: black;
+  transform: translateY(10%);
+  margin: auto;
+  overflow: hidden;
+}
+.cellphoneScreen {
+  width: 100%;
+  height: 102%;
+  background-color: transparent;
+  border: rgb(0, 0, 0) solid 3.8vh;
+  border-left: rgb(0, 0, 0) solid 0.7rem;
+  border-right: rgb(0, 0, 0) solid 0.7rem;
+  border-bottom: rgb(0, 0, 0) solid 5vh;
+  background-image: url("images/man.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position: center;
+  border-radius: 3.5%;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  z-index: -99;
+}
+h1 {
+  margin-top: 100%;
+  color: #fff;
+}
+h2 {
+  margin-top: 6%;
+  color: #fff;
+}
+h1,
+h2 {
+  background-color: rgba(0, 0, 0, 0.164);
+}
+.cellphoneScreen p {
+  background-color: rgba(9, 255, 0, 0.589);
+  /* background-color: rgba(255, 0, 0, 0.589); */
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 9%;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 3.5vh;
+  /* max-inline-size: 100%; */
+  padding: 2%;
+  font-weight: bold;
+  font-variant-caps: all-small-caps;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+.image {
+  position: absolute;
+  right: 3vh;
+  top: 3vh;
+  width: 33%;
+  border: rgba(245, 245, 245, 0.801) solid 0.5vh;
+  box-shadow: 1vh 1.5vh 2vh #00000046;
+}
+.image img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.whitey {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  bottom: -55vh;
+  right: 50vh;
+  transform: rotate(45deg);
+  scale: 160% 140%;
+  animation-name: my-animation2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+/* Extra Animation Part */
+p {
+  animation-name: my-animation;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes my-animation {
+  to {
+    font-size: 3.6vh;
+    color: rgba(65, 42, 0, 0.8);
+    /* background-color: #860000b0; */
+    background-color: #00860bb0;
+    width: 50%;
+    bottom: 5%;
+    border-radius: 1vh;
+  }
+}
+@keyframes my-animation2 {
+  to {
+    width: 400vw;
+    height: 220vh;
+    rotate: 90deg;
+    background-color: #ffffff25;
+  }
+}
