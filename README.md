@@ -4,11 +4,9 @@
 
 https://rami24t.github.io/uib-in-a-call-Rami24t/
 
-## Snapshots
+## Snapshot
 
 ![Screenshot 2023-05-15 at 23-01-18 Document](https://github.com/Rami24t/uib-in-a-call-Rami24t/assets/103028944/5a596768-96b1-4958-9d20-fe31972c16c4)
-![Screenshot 2023-05-15 at 23-00-09 Document](https://github.com/Rami24t/uib-in-a-call-Rami24t/assets/103028944/038d2c6f-70c0-4372-8999-ec7f95903893)
-
 
 
 # UI Challenge instructions
